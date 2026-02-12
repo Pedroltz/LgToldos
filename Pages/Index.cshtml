@@ -1,0 +1,477 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Início";
+}
+
+<!-- HERO -->
+<section id="hero" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+        <div class="row align-items-center min-vh-100">
+            <div class="col-lg-6">
+                <span class="hero-badge">Desde 2021 transformando espaços</span>
+                <h1 class="hero-title">
+                    Toldos, Coberturas &<br />
+                    <span class="hero-highlight">Estruturas Metálicas</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Projetos sob medida com segurança garantida para todo o estado de São Paulo.
+                    Proteja e valorize seu espaço com qualidade e compromisso.
+                </p>
+                <div class="hero-actions">
+                    <a href="https://wa.me/5514991937950?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento."
+                       class="btn btn-cta btn-lg" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-whatsapp me-2"></i>Solicitar Orçamento
+                    </a>
+                    <a href="#servicos" class="btn btn-outline-light btn-lg">
+                        Nossos Serviços <i class="bi bi-arrow-down ms-2"></i>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="hero-stat-number">94%</span>
+                        <span class="hero-stat-label">Satisfação</span>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number">92%</span>
+                        <span class="hero-stat-label">Taxa de Sucesso</span>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number">SP</span>
+                        <span class="hero-stat-label">Todo o Estado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 d-none d-lg-flex justify-content-center align-items-center">
+                <div class="hero-logo-wrapper">
+                    <img src="~/imgs/LargeLogo.jpg" alt="LG Toldos e Coberturas" class="hero-logo" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="about-section">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <div class="about-image-wrapper">
+                    <img src="~/imgs/sobre.jpg"
+                         alt="LG Toldos & Estruturas Metálicas" class="about-image" loading="lazy" />
+                    <div class="about-image-accent"></div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <span class="section-tag">Quem Somos</span>
+                <h2 class="section-title">Sobre a <span class="text-primary-custom">LG Toldos</span></h2>
+                <p class="about-text">
+                    A <strong>LG Toldos & Estruturas Metálicas LTDA</strong> é uma empresa familiar fundada em
+                    <strong>julho de 2021</strong>, com atuação em todo o estado de <strong>São Paulo</strong>.
+                </p>
+                <p class="about-text">
+                    Trabalhamos com toldos, coberturas, telhas metálicas, calhas, rufos e muito mais.
+                    Nosso compromisso é entregar projetos sob medida que aliam segurança, qualidade e
+                    a satisfação total dos nossos clientes.
+                </p>
+                <div class="about-features">
+                    <div class="about-feature">
+                        <div class="about-feature-icon">
+                            <i class="bi bi-rulers"></i>
+                        </div>
+                        <div>
+                            <h6>Projetos Sob Medida</h6>
+                            <p>Valores moldados conforme a medida do seu local</p>
+                        </div>
+                    </div>
+                    <div class="about-feature">
+                        <div class="about-feature-icon">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <div>
+                            <h6>Segurança Garantida</h6>
+                            <p>Ética, responsabilidade e comprometimento</p>
+                        </div>
+                    </div>
+                    <div class="about-feature">
+                        <div class="about-feature-icon">
+                            <i class="bi bi-clipboard-check"></i>
+                        </div>
+                        <div>
+                            <h6>Orçamento sem Compromisso</h6>
+                            <p>Entre em contato e solicite o seu orçamento gratuito</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos" class="services-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="section-tag">O que Fazemos</span>
+            <h2 class="section-title">Nossos <span class="text-primary-custom">Serviços</span></h2>
+            <p class="section-description">
+                Soluções completas em toldos, coberturas e estruturas metálicas para residências e empresas.
+            </p>
+        </div>
+
+        <div class="row g-4">
+            <!-- Toldos -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card">
+                    <div class="service-card-img">
+                        <img src="~/imgs/toldos.jpg" alt="Toldos" loading="lazy" />
+                        <div class="service-card-icon">
+                            <i class="bi bi-sun"></i>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h4>Toldos</h4>
+                        <p>
+                            Toldos fixos de lona e policarbonato, toldos cortina retrátil.
+                            Proteção eficiente contra sol e chuva, garantindo temperatura mais agradável ao ambiente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pergolados -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card">
+                    <div class="service-card-img">
+                        <img src="~/imgs/pergolados.jpg" alt="Pergolados" loading="lazy" />
+                        <div class="service-card-icon">
+                            <i class="bi bi-grid-3x3"></i>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h4>Pergolados</h4>
+                        <p>
+                            Estruturas de ferro para jardins e áreas gourmet. Criação de espaços aconchegantes
+                            para reuniões familiares com combinação de coberturas de policarbonato.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cortinas Retráteis -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card">
+                    <div class="service-card-img">
+                        <img src="~/imgs/cortinas.png" alt="Cortinas Retráteis" loading="lazy" />
+                        <div class="service-card-icon">
+                            <i class="bi bi-arrows-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h4>Cortinas Retráteis</h4>
+                        <p>
+                            Com mola (retração automática), com catraca (controle manual preciso) e com braço.
+                            Ideal para quiosques, varandas, sacadas, garagens e vitrines.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coberturas -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card">
+                    <div class="service-card-img">
+                        <img src="~/imgs/coberturas.jpg" alt="Coberturas" loading="lazy" />
+                        <div class="service-card-icon">
+                            <i class="bi bi-house"></i>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h4>Coberturas</h4>
+                        <p>
+                            Retráteis, fixas simples, termo acústicas (reduz até 90% do calor) e de policarbonato.
+                            Também trabalhamos com lona tensionada para sombreamento.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Corrimões e Guarda-Corpos -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card">
+                    <div class="service-card-img">
+                        <img src="~/imgs/corrimoes.jpg" alt="Corrimões e Guarda-Corpos" loading="lazy" />
+                        <div class="service-card-icon">
+                            <i class="bi bi-signpost-split"></i>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h4>Corrimões e Guarda-Corpos</h4>
+                        <p>
+                            Aumento de segurança em escadas com aplicações corporativas e domésticas.
+                            Diversos designs e materiais disponíveis em ferro e madeira.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Escadas -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card">
+                    <div class="service-card-img">
+                        <img src="~/imgs/escadas.png" alt="Escadas" loading="lazy" />
+                        <div class="service-card-icon">
+                            <i class="bi bi-ladder"></i>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h4>Escadas</h4>
+                        <p>
+                            Funcionalidade e estética para espaços residenciais e comerciais.
+                            Estruturas de ferro com diferentes acabamentos sob medida.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Calhas, Rufos e Condutores -->
+            <div class="col-12">
+                <div class="service-card service-card-wide">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-5">
+                            <div class="service-card-img service-card-img-wide">
+                                <img src="~/imgs/calhas.jpg" alt="Calhas, Rufos e Condutores" loading="lazy" />
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="service-card-body p-4">
+                                <div class="service-card-icon-inline">
+                                    <i class="bi bi-droplet-half"></i>
+                                </div>
+                                <h4>Calhas, Rufos e Condutores</h4>
+                                <p>
+                                    Sistemas completos para escoamento de água da chuva, prevenção de umidade e
+                                    infiltrações. Utilizamos materiais galvanizados de alta qualidade para garantir
+                                    durabilidade e proteção ao seu imóvel.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- COBERTURAS DETALHES -->
+<section class="coverage-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="section-tag section-tag-light">Tipos de Coberturas</span>
+            <h2 class="section-title text-white">Coberturas para <span class="text-highlight">Cada Necessidade</span></h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="coverage-card">
+                    <div class="coverage-icon">
+                        <i class="bi bi-arrows-expand"></i>
+                    </div>
+                    <h5>Retrátil</h5>
+                    <p>Telha metálica ou policarbonato com sistema de trilhos para abertura e fechamento conforme necessidade.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="coverage-card">
+                    <div class="coverage-icon">
+                        <i class="bi bi-box"></i>
+                    </div>
+                    <h5>Fixa Simples</h5>
+                    <p>Telha metálica com durabilidade, proteção contra intempéries e manutenção simplificada.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="coverage-card">
+                    <div class="coverage-icon">
+                        <i class="bi bi-thermometer-snow"></i>
+                    </div>
+                    <h5>Termo Acústica</h5>
+                    <p>Reduz até 90% do calor/frio e até 30dB de ruído. Opção com forro PVC amadeirado.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="coverage-card">
+                    <div class="coverage-icon">
+                        <i class="bi bi-brightness-high"></i>
+                    </div>
+                    <h5>Policarbonato</h5>
+                    <p>Transparente ou fumê. Resistente, leve, permite luz natural e bloqueia raios UV.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- DIFERENCIAIS -->
+<section id="diferenciais" class="differentials-section">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <span class="section-tag">Por que nos escolher</span>
+                <h2 class="section-title">Nossos <span class="text-primary-custom">Diferenciais</span></h2>
+                <p class="section-description text-start">
+                    Trabalhamos com foco total na satisfação do cliente, entregando qualidade,
+                    segurança e inovação em cada projeto.
+                </p>
+                <div class="differentials-grid">
+                    <div class="differential-item">
+                        <div class="differential-icon">
+                            <i class="bi bi-cash-stack"></i>
+                        </div>
+                        <div>
+                            <h6>Orçamento sem Compromisso</h6>
+                            <p>Solicite seu orçamento gratuito e sem obrigação</p>
+                        </div>
+                    </div>
+                    <div class="differential-item">
+                        <div class="differential-icon">
+                            <i class="bi bi-rulers"></i>
+                        </div>
+                        <div>
+                            <h6>Valores sob Medida</h6>
+                            <p>Preços moldados conforme as dimensões do seu espaço</p>
+                        </div>
+                    </div>
+                    <div class="differential-item">
+                        <div class="differential-icon">
+                            <i class="bi bi-emoji-smile"></i>
+                        </div>
+                        <div>
+                            <h6>Foco na Satisfação</h6>
+                            <p>94% de taxa de satisfação entre nossos clientes</p>
+                        </div>
+                    </div>
+                    <div class="differential-item">
+                        <div class="differential-icon">
+                            <i class="bi bi-shield-lock"></i>
+                        </div>
+                        <div>
+                            <h6>Segurança e Ética</h6>
+                            <p>Comprometimento e responsabilidade em todas as etapas</p>
+                        </div>
+                    </div>
+                    <div class="differential-item">
+                        <div class="differential-icon">
+                            <i class="bi bi-lightbulb"></i>
+                        </div>
+                        <div>
+                            <h6>Inovação Constante</h6>
+                            <p>Inovação em todas as ações para melhor atender você</p>
+                        </div>
+                    </div>
+                    <div class="differential-item">
+                        <div class="differential-icon">
+                            <i class="bi bi-heart"></i>
+                        </div>
+                        <div>
+                            <h6>Qualidade de Vida</h6>
+                            <p>Nosso objetivo é melhorar a qualidade de vida dos clientes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="stats-card">
+                    <div class="stats-card-header">
+                        <h4>Indicadores de Qualidade</h4>
+                    </div>
+                    <div class="stats-card-body">
+                        <div class="stat-item">
+                            <div class="stat-info">
+                                <span class="stat-label">Taxa de Satisfação</span>
+                                <span class="stat-value">94%</span>
+                            </div>
+                            <div class="stat-bar">
+                                <div class="stat-bar-fill" style="width: 94%"></div>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-info">
+                                <span class="stat-label">Avaliação de Sucesso</span>
+                                <span class="stat-value">92%</span>
+                            </div>
+                            <div class="stat-bar">
+                                <div class="stat-bar-fill" style="width: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stats-card-footer">
+                        <img src="~/imgs/trabalho.jpg"
+                             alt="Trabalho da LG Toldos" class="stats-image" loading="lazy" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="contact-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="section-tag section-tag-light">Fale Conosco</span>
+            <h2 class="section-title text-white">Entre em <span class="text-highlight">Contato</span></h2>
+            <p class="section-description text-white-50">
+                Solicite seu orçamento sem compromisso. Estamos prontos para atender você!
+            </p>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-lg-4 col-md-6">
+                <a href="https://wa.me/5514991937950?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento."
+                   class="contact-card" target="_blank" rel="noopener noreferrer">
+                    <div class="contact-card-icon">
+                        <i class="bi bi-whatsapp"></i>
+                    </div>
+                    <h5>WhatsApp</h5>
+                    <p>(14) 99193-7950</p>
+                    <span class="contact-card-action">Enviar mensagem <i class="bi bi-arrow-right"></i></span>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <a href="mailto:lgtoldoscoberturas@gmail.com" class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="bi bi-envelope"></i>
+                    </div>
+                    <h5>E-mail</h5>
+                    <p>lgtoldoscoberturas@gmail.com</p>
+                    <span class="contact-card-action">Enviar e-mail <i class="bi bi-arrow-right"></i></span>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <a href="https://www.instagram.com/lg.toldoscoberturas" class="contact-card" target="_blank" rel="noopener noreferrer">
+                    <div class="contact-card-icon">
+                        <i class="bi bi-instagram"></i>
+                    </div>
+                    <h5>Instagram</h5>
+                    <p>@@lg.toldoscoberturas</p>
+                    <span class="contact-card-action">Seguir no Instagram <i class="bi bi-arrow-right"></i></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="map-wrapper">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3694.5!2d-48.5581!3d-22.4947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sBarra%20Bonita%20SP!5e0!3m2!1spt-BR!2sbr!4v1"
+                        width="100%" height="350" style="border:0; border-radius: 12px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        title="Localização LG Toldos">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

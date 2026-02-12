@@ -1,0 +1,136 @@
+@{
+    var currentYear = DateTime.Now.Year;
+}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="LG Toldos & Estruturas Metálicas - Toldos, coberturas, pergolados, cortinas retráteis e estruturas metálicas em todo o estado de São Paulo. Projetos sob medida com segurança garantida." />
+    <meta name="keywords" content="toldos, coberturas, pergolados, estruturas metálicas, cortinas retráteis, calhas, rufos, Barra Bonita, São Paulo" />
+    <meta name="author" content="LG Toldos & Estruturas Metálicas LTDA" />
+    <meta property="og:title" content="LG Toldos & Estruturas Metálicas" />
+    <meta property="og:description" content="Toldos, coberturas, pergolados e estruturas metálicas. Projetos sob medida com segurança garantida." />
+    <meta property="og:type" content="website" />
+    <title>@ViewData["Title"] - LG Toldos & Estruturas Metálicas</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#hero">
+                    <img src="~/imgs/Logo.png" alt="LG Toldos e Coberturas" class="navbar-logo" />
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav"
+                        aria-expanded="false" aria-label="Abrir navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hero">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicos">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#diferenciais">Diferenciais</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/5514991937950?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento."
+                       class="btn btn-cta ms-lg-3 mt-3 mt-lg-0" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-whatsapp me-1"></i> Orçamento
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="footer-title">
+                        <span class="brand-lg">LG</span> Toldos & Estruturas Metálicas
+                    </h5>
+                    <p class="footer-slogan">"A sua satisfação é o nosso compromisso!"</p>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/lg.toldoscoberturas" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/LGToldoseCoberturas" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://wa.me/5514991937950" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="footer-title">Navegação</h5>
+                    <ul class="footer-links">
+                        <li><a href="#hero">Início</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#diferenciais">Diferenciais</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <h5 class="footer-title">Contato</h5>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            Rua Geraldo Fazzio, 1098, Residencial Cestari - Barra Bonita/SP
+                        </li>
+                        <li>
+                            <i class="bi bi-whatsapp"></i>
+                            <a href="https://wa.me/5514991937950">(14) 99193-7950</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-envelope-fill"></i>
+                            <a href="mailto:lgtoldoscoberturas@gmail.com">lgtoldoscoberturas@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider" />
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="footer-copy">
+                        &copy; @currentYear LG Toldos & Estruturas Metálicas LTDA. Todos os direitos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão flutuante WhatsApp -->
+    <a href="https://wa.me/5514991937950?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento."
+       class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Fale conosco pelo WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
